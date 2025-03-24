@@ -1787,3 +1787,30 @@ form label {
 
 /*# sourceMappingURL=style.css.map */
 
+.abigbie {
+    position: relative;
+    display: inline-block;
+    /* Add any other styling you might need here */
+}
+
+.abigbie .hidden-text {
+    visibility: hidden;
+    font-size: 8px; 
+    background-color: #f9f9f9;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    /* Optional: Add shadow for better visibility */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.abigbie:hover .hidden-text {
+    visibility: visible;
+}
