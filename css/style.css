@@ -324,14 +324,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 700px;
   display: table;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 600px;
+    height: 500px;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -439,7 +439,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter {
-  height: 600px;
+  height: 800px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter {
@@ -1159,11 +1159,6 @@ form label {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 700;
-  display: block;
-}
-#fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #646464;
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
